@@ -1,8 +1,9 @@
 .desktop {
   position: relative;
   width: 1280px;
-  height: 1080px;
+  height: 1685px;
   background-color: #ffffff;
+  overflow: hidden;
 }
 
 .desktop .messageflowlogo {
@@ -16,13 +17,13 @@
 }
 
 .desktop .text-wrapper {
-  position: absolute;
   top: 13px;
   left: 75px;
   font-family: "Unbounded-ExtraBold", Helvetica;
   font-weight: 800;
-  color: #000000;
   font-size: 40px;
+  position: absolute;
+  color: #000000;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -32,8 +33,8 @@
   top: 86px;
   left: 23px;
   width: 519px;
-  font-family: "Unbounded-Medium", Helvetica;
-  font-weight: 500;
+  font-family: "Unbounded-SemiBold", Helvetica;
+  font-weight: 600;
   color: #000000;
   font-size: 36px;
   letter-spacing: 0;
@@ -45,8 +46,21 @@
   top: 179px;
   left: 23px;
   width: 1102px;
-  font-family: "Unbounded-Regular", Helvetica;
-  font-weight: 400;
+  font-family: "Unbounded-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .element {
+  position: absolute;
+  top: 612px;
+  left: 23px;
+  width: 1102px;
+  font-family: "Unbounded-Medium", Helvetica;
+  font-weight: 500;
   color: #000000;
   font-size: 32px;
   letter-spacing: 0;
@@ -54,6 +68,19 @@
 }
 
 .desktop .text-wrapper-2 {
+  top: 536px;
+  left: 23px;
+  width: 1102px;
+  font-family: "Unbounded-SemiBold", Helvetica;
+  font-weight: 600;
+  font-size: 48px;
+  position: absolute;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-3 {
   position: absolute;
   top: 335px;
   left: 23px;
@@ -77,7 +104,7 @@
   display: flex;
 }
 
-.desktop .text-wrapper-3 {
+.desktop .text-wrapper-4 {
   display: flex;
   align-items: center;
   margin-top: 17px;
@@ -104,7 +131,7 @@
   border-radius: 88px;
 }
 
-.desktop .text-wrapper-4 {
+.desktop .text-wrapper-5 {
   display: flex;
   align-items: center;
   margin-top: 21px;
@@ -117,4 +144,14 @@
   font-size: 36px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.desktop .image {
+  position: absolute;
+  top: 862px;
+  left: -34px;
+  width: 780px;
+  height: 851px;
+  aspect-ratio: 0.88;
+  object-fit: cover;
 }
