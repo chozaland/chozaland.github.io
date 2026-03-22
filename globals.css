@@ -22,17 +22,17 @@ a {
   font-family: "Unbounded-ExtraBold";
   src: local("Unbounded-ExtraBold");
 }
+/* @FONTWARNING[{"type": "restricted", "family": "Unbounded-SemiBold", "weight": "600", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "Unbounded-SemiBold";
+  src: local("Unbounded-SemiBold");
+}
 /* @FONTWARNING[{"type": "restricted", "family": "Unbounded-Medium", "weight": "500", "style": "normal", "allowsCrossOrigin": false}] */
 
 @font-face {
   font-family: "Unbounded-Medium";
   src: local("Unbounded-Medium");
-}
-/* @FONTWARNING[{"type": "restricted", "family": "Unbounded-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
-
-@font-face {
-  font-family: "Unbounded-Regular";
-  src: local("Unbounded-Regular");
 }
 /* @FONTWARNING[{"type": "restricted", "family": "Unbounded-Bold", "weight": "700", "style": "normal", "allowsCrossOrigin": false}] */
 
